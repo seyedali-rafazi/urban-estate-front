@@ -27,7 +27,7 @@ const FilterBathroomType: React.FC<FilterBathroomTypeType> = ({
 
   return (
     <FilterOptions
-      headerText="نوع سرویس بهداشتی"
+      headerText="Toilet Type"
       active={active}
       items={BathroomTypeDetails}
       handelClick={handelClick}

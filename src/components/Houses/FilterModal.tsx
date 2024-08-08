@@ -37,7 +37,7 @@ const FilterModal: React.FC<FilterModalType> = ({
 
   return (
     <Modal
-      logo="فیلترها"
+      logo="Filters"
       onClose={() => setFilterOpen(false)}
       open={filterOpen}
       width="h-full w-full md:w-2/3 lg:w-1/2 md:h-fit overflow-scroll "

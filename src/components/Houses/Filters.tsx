@@ -12,7 +12,7 @@ const Filters: React.FC = () => {
           onClick={() => setFilterOpen(true)}
           className="bg-gray-150 appearance-none w-full h-full pl-2 pr-8 p py-1 border border-gray-300 rounded-md shadow-sm"
         >
-          فیلترها
+         Filters
         </button>
         <TbFilterSearch className="absolute top-2.5 right-2" />
       </div>

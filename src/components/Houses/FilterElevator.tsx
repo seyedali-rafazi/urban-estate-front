@@ -27,7 +27,7 @@ const FilterElevator: React.FC<FilterElevatorType> = ({
 
   return (
     <FilterOptions
-      headerText="اسانسور"
+      headerText="Elevator"
       active={active}
       items={FilterElevatorDetails}
       handelClick={handelClick}

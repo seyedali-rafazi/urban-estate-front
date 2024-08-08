@@ -62,7 +62,7 @@ const FetchHouses: React.FC<FetchHousesType> = ({ city }) => {
         {items.length == 0
           ? !loading && (
               <p className="font-semibold w-full">
-                محصولی برای نمایش وجود ندارد
+                There are no products to display
               </p>
             )
           : items.map((house: any) => (

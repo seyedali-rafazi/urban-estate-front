@@ -7,12 +7,12 @@ interface FilterTypea {
 const RoomDetails: FilterTypea[] = [
   {
     id: 1,
-    text: "هر تعداد",
+    text: "Any Number",
     value: "",
   },
   {
     id: 2,
-    text: "بدون اتاق",
+    text: "No Room",
     value: "0",
   },
   {
@@ -35,12 +35,12 @@ const RoomDetails: FilterTypea[] = [
 const ParkingDetails: FilterTypea[] = [
   {
     id: 1,
-    text: "هر تعداد",
+    text: "Any Number",
     value: "",
   },
   {
     id: 2,
-    text: "ندارد",
+    text: "None",
     value: "0",
   },
   {
@@ -58,12 +58,12 @@ const ParkingDetails: FilterTypea[] = [
 const WarhouseDetails: FilterTypea[] = [
   {
     id: 1,
-    text: "هر تعداد",
+    text: "Any Number",
     value: "",
   },
   {
     id: 2,
-    text: "ندارد",
+    text: "None",
     value: "0",
   },
   {
@@ -99,17 +99,17 @@ const BathroomDetails: FilterTypea[] = [
 const BathroomTypeDetails: FilterTypea[] = [
   {
     id: 1,
-    text: "مهم نیست",
+    text: "Doesn't Matter",
     value: "",
   },
   {
     id: 2,
-    text: "ایرانی",
+    text: "Iranian",
     value: "ایرانی",
   },
   {
     id: 3,
-    text: "فرنگی",
+    text: "Western",
     value: "فرنگی",
   },
 ];
@@ -117,7 +117,7 @@ const BathroomTypeDetails: FilterTypea[] = [
 const FilterElevatorDetails: FilterTypea[] = [
   {
     id: 1,
-    text: "مهم نیست",
+    text: "Doesn't Matter",
     value: "",
   },
   {
@@ -135,12 +135,12 @@ const FilterElevatorDetails: FilterTypea[] = [
 const FloorDetails: FilterTypea[] = [
   {
     id: 1,
-    text: "مهم نیست",
+    text: "Doesn't Matter",
     value: "",
   },
   {
     id: 2,
-    text: "همکف",
+    text: "Ground Floor",
     value: "0",
   },
   {
@@ -163,22 +163,22 @@ const FloorDetails: FilterTypea[] = [
 const CollingSystemDetails: FilterTypea[] = [
   {
     id: 1,
-    text: "مهم نیست",
+    text: "Doesn't Matter",
     value: "",
   },
   {
     id: 2,
-    text: "کولر آبی",
+    text: "Evaporative Cooler",
     value: "کولر آبی",
   },
   {
     id: 3,
-    text: "اسپلیت",
+    text: "Split AC",
     value: "اسپلیت",
   },
   {
     id: 4,
-    text: "چیلر",
+    text: "Chiller",
     value: "چیلر",
   },
 ];
@@ -186,27 +186,27 @@ const CollingSystemDetails: FilterTypea[] = [
 const HeatingSystemDetails: FilterTypea[] = [
   {
     id: 1,
-    text: "مهم نیست",
+    text: "Doesn't Matter",
     value: "",
   },
   {
     id: 2,
-    text: "مرکزی",
+    text: "Central",
     value: "مرکزی",
   },
   {
     id: 3,
-    text: "اسپلیت",
+    text: "Split AC",
     value: "اسپلیت",
   },
   {
     id: 4,
-    text: "شومینه",
+    text: "Fireplace",
     value: "شومینه",
   },
   {
     id: 5,
-    text: "رادیاتور",
+    text: "Radiator",
     value: "رادیاتور",
   },
 ];
@@ -214,27 +214,27 @@ const HeatingSystemDetails: FilterTypea[] = [
 const FloorMaterialDetails: FilterTypea[] = [
   {
     id: 1,
-    text: "مهم نیست",
+    text: "Doesn't Matter",
     value: "",
   },
   {
     id: 2,
-    text: "سنگ",
+    text: "Stone",
     value: "سنگ",
   },
   {
     id: 3,
-    text: "سرامیک",
+    text: "Ceramic",
     value: "سرامیک",
   },
   {
     id: 4,
-    text: "لمینت",
+    text: "Laminate",
     value: "لمینت",
   },
   {
     id: 5,
-    text: "چوب",
+    text: "Wood",
     value: "چوب",
   },
 ];

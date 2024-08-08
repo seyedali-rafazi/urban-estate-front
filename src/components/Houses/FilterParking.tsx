@@ -24,7 +24,7 @@ const FilterParking: React.FC<FilterParkingType> = ({ active, setActive }) => {
 
   return (
     <FilterOptions
-      headerText="پارکینگ"
+      headerText="Parking"
       active={active}
       items={ParkingDetails}
       handelClick={handelClick}

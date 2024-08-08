@@ -27,7 +27,7 @@ const FilterCollingSystem: React.FC<FilterCollingSystemType> = ({
 
   return (
     <FilterOptions
-      headerText="سیستم سرمایشی"
+      headerText="Cooling system"
       active={active}
       items={CollingSystemDetails}
       handelClick={handelClick}

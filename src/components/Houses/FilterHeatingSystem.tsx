@@ -27,7 +27,7 @@ const FilterHeatingSystem: React.FC<FilterHeatingSystemType> = ({
 
   return (
     <FilterOptions
-      headerText="سیستم گرمایشی"
+      headerText="Heating system"
       active={active}
       items={HeatingSystemDetails}
       handelClick={handelClick}

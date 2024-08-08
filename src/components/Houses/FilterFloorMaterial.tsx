@@ -27,7 +27,7 @@ const FilterFloorMaterial: React.FC<FilterFloorMaterialType> = ({
 
   return (
     <FilterOptions
-      headerText="جنس کف"
+      headerText="Floor type"
       active={active}
       items={FloorMaterialDetails}
       handelClick={handelClick}

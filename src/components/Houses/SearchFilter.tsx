@@ -44,13 +44,13 @@ const SearchFilter: React.FC<SearchFilterType> = ({ onClose, setActive }) => {
         onClick={hadelClick}
         className="text-primary w-40 py-2.5 font-medium rounded-md border border-primary flex justify-center"
       >
-        حذف فیلترها
+        Remove filters
       </button>
       <button
         className="text-white bg-primary w-40 py-2.5 font-medium rounded-md flex justify-center"
         onClick={onClose}
       >
-        جست و جو
+        Search
       </button>
     </div>
   );

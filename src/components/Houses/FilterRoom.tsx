@@ -24,7 +24,7 @@ const FilterRoom: React.FC<FilterRoomType> = ({ active, setActive }) => {
 
   return (
     <FilterOptions
-      headerText="اتاق خواب"
+      headerText="Room"
       active={active}
       items={RoomDetails}
       handelClick={handelClick}

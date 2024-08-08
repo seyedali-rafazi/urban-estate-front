@@ -58,13 +58,13 @@ const AdThirdContent: React.FC = () => {
       <div className="flex flex-col justify-center items-center lg:grid lg:grid-cols-2 gap-8 p-3 w-full ">
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="پارکینگ"
+          placeholder="Parking"
           errors={errors}
           name="parking"
           type="number"
           register={register}
           validationSchema={{
-            required: "پارکینگ الزامی است",
+            required: "Parking is required",
           }}
         />
         <TextField

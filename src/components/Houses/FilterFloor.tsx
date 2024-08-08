@@ -24,7 +24,7 @@ const FilterFloor: React.FC<FilterFloorType> = ({ active, setActive }) => {
 
   return (
     <FilterOptions
-      headerText="طبقه"
+      headerText="Floor"
       active={active}
       items={FloorDetails}
       handelClick={handelClick}

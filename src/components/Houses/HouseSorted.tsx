@@ -15,8 +15,8 @@ const HouseSorted: React.FC<HouseSortedType> = ({ setSort }) => {
         onChange={handelChange}
         className="bg-gray-150 appearance-none w-full h-full pl-8 pr-2 p py-1 border border-gray-300 rounded-md shadow-sm"
       >
-        <option value="earliest">جدیدترین</option>
-        <option value="latest">قدیمی‌ترین</option>
+        <option value="earliest">Newest</option>
+        <option value="latest">The oldest</option>
       </Select>
       <FaArrowDownShortWide className="absolute top-2.5 left-2" />
     </div>

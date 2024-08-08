@@ -27,7 +27,7 @@ const FilterWarhouse: React.FC<FilterWarhouseType> = ({
 
   return (
     <FilterOptions
-      headerText="انباری"
+      headerText="Warehouse"
       active={active}
       items={WarhouseDetails}
       handelClick={handelClick}
