@@ -8,11 +8,14 @@ const FooterConDown: React.FC = () => {
           <img src="/photos/Logo.png" alt="logo" />
         </div>
         <div className="space-y-2">
-          <h3 className="font-semibold">تجربه لذت خانه‌دار شدن سریع و آسان</h3>
+          <h3 className="font-semibold">
+            Experience the joy of becoming a quick and easy homemaker
+          </h3>
           <p className="font-medium text-gray-450 text-sm">
-            سقفینو پلی است تا به سرعت در بین هزاران آگهی ثبت‌شده جست‌وجو کنید.
-            ملک مورد نظر را پیدا کنید و برای انجام معامله‌ای مطمئن، با مشاورین
-            املاک معتمد و متخصص شهرتان در ارتباط باشید.
+            UrbanState is a bridge to quickly search among thousands of
+            registered ads. Find the desired property and get in touch with
+            trusted and expert real estate advisors in your city to make a
+            secure transaction.
           </p>
         </div>
       </div>

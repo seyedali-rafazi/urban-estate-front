@@ -6,14 +6,14 @@ import { SaghfinooDetails } from "../../data/HomeData";
 const SaghfinooSummery: React.FC = () => {
   return (
     <div className="my-10 space-y-8 text-gray-800 max-w-[1640px] mx-auto">
-      <h2 className="font-bold text-xl xl:text-2xl mx-10 sm:mx-12 md:mx-14">
-        سقفینو چطور به خانه‌دار شدن شما کمک می‌کند
+      <h2 className="font-bold text-lg xl:text-xl mx-10 sm:mx-12 md:mx-14 text-center">
+        How UrbanState helps you become a homeowner
       </h2>
       <div className="mx-10 sm:mx-14 md:mx-20 lg:mx-28">
         <SaghfinooSwiper>
           {SaghfinooDetails.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="flex flex-col bg-gray-100 gap-8 rounded-lg border border-gray-200">
+              <div className="flex flex-col justify-between bg-gray-100 gap-8 rounded-lg border border-gray-200 h-full">
                 <div className="flex flex-col gap-6">
                   <div className="min-h-48">
                     <img

@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <div className="flex flex-col justify-between pt-5 px-5 w-full min-h-96 bg-gray-100">
       <div className="w-full">
         <h1 className="font-bold text-xl md:text-3xl text-center">
-          سقفینو؛ سقفی ایده‌آل برای زندگی
+          Discover Your Urban Haven with Urban State
         </h1>
       </div>
       <FooterContent />

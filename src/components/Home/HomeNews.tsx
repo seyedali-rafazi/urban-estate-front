@@ -7,8 +7,8 @@ const HomeNews: React.FC = () => {
   return (
     <div className="my-10 space-y-8 text-gray-800 max-w-[1640px] mx-auto">
       <div className="flex flex-col justify-center">
-        <h2 className="font-bold text-xl md:text-xl lg:text-2xl mx-10 sm:mx-12 md:mx-14">
-          آخرین اخبار املاک را از سقفینو دنبال کنید
+        <h2 className="font-bold text-lg xl:text-xl mx-10 sm:mx-12 md:mx-14 text-center">
+          Follow the latest real estate news from Safino
         </h2>
       </div>
       <div className="mx-10 sm:mx-12 md:mx-14">

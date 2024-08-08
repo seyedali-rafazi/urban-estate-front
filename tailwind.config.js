@@ -73,7 +73,7 @@ export default {
       },
 
       fontFamily: {
-        sans: ["Shabnam", ...fontFamily.sans],
+        sans: ["Montserrat", ...fontFamily.sans],
       },
     },
   },

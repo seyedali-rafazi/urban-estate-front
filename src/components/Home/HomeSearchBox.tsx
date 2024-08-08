@@ -27,7 +27,7 @@ const HomeSearchBox: React.FC = () => {
             city == "rent" ? "text-red-400 duration-300" : ""
           } w-full h-full font-bold`}
         >
-          اجاره
+          Rent
         </button>
         <button
           value="buy"
@@ -36,7 +36,7 @@ const HomeSearchBox: React.FC = () => {
             city == "buy" ? "text-red-400 duration-300" : ""
           } w-full h-full font-bold`}
         >
-          خرید
+          Buy
         </button>
       </div>
       <form className="flex items-center" onSubmit={handelSubmit}>
@@ -47,7 +47,7 @@ const HomeSearchBox: React.FC = () => {
           className="w-full font-semibold"
           type="text"
           onChange={(e) => setCityName(e.target.value)}
-          placeholder="شهر مورد نظر را جست و جو کنید"
+          placeholder="Search for the desired city"
         />
       </form>
     </div>
