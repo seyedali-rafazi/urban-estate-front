@@ -8,84 +8,85 @@ interface MarkerType {
 const markers: MarkerType[] = [
   {
     id: 1,
-    geocode: [35.6892, 51.389],
+    geocode: [34.0522, -118.2437], // Downtown Los Angeles
   },
   {
     id: 2,
-    geocode: [35.6961, 51.4231],
+    geocode: [34.0522, -118.243], // Near Downtown
   },
   {
     id: 3,
-    geocode: [35.7219, 51.3347],
+    geocode: [34.0701, -118.4441], // Westwood
   },
   {
     id: 4,
-    geocode: [35.7325, 51.4226],
+    geocode: [34.0778, -118.4455], // UCLA Area
   },
   {
     id: 5,
-    geocode: [35.7448, 51.3758],
+    geocode: [34.0472, -118.2585], // Near Staples Center
   },
   {
     id: 6,
-    geocode: [35.7699, 51.4094],
+    geocode: [34.0522, -118.243], // Near LA Live
   },
   {
     id: 7,
-    geocode: [35.6895, 51.3916],
+    geocode: [34.06, -118.238], // Near USC
   },
   {
     id: 8,
-    geocode: [35.7153, 51.4323],
+    geocode: [34.0634, -118.4457], // Near Santa Monica
   },
   {
     id: 9,
-    geocode: [35.7028, 51.3709],
+    geocode: [34.0522, -118.255], // Near LA Convention Center
   },
   {
     id: 10,
-    geocode: [35.6965, 51.3728],
+    geocode: [34.0467, -118.2614], // Near Echo Park
   },
   {
     id: 11,
-    geocode: [35.7436, 51.3981],
+    geocode: [34.0652, -118.4452], // Near Beverly Hills
   },
   {
     id: 12,
-    geocode: [35.7489, 51.4054],
+    geocode: [34.069, -118.4455], // Near Century City
   },
   {
     id: 13,
-    geocode: [35.6894, 51.4101],
+    geocode: [34.0584, -118.2482], // Near The Grove
   },
   {
     id: 14,
-    geocode: [35.7098, 51.4217],
+    geocode: [34.0615, -118.4004], // Near Venice Beach
   },
   {
     id: 15,
-    geocode: [35.7311, 51.3879],
+    geocode: [34.0662, -118.4827], // Near Long Beach
   },
   {
     id: 16,
-    geocode: [35.7154, 51.4425],
+    geocode: [34.0724, -118.405], // Near Hollywood
   },
   {
     id: 17,
-    geocode: [35.6915, 51.4259],
+    geocode: [34.0928, -118.3287], // Near Pasadena
   },
   {
     id: 18,
-    geocode: [35.7416, 51.4285],
+    geocode: [34.0485, -118.2558], // Near Griffith Park
   },
   {
     id: 19,
-    geocode: [35.7382, 51.3833],
+    geocode: [34.0537, -118.2498], // Near Arts District
   },
   {
     id: 20,
-    geocode: [35.7225, 51.3872],
+    geocode: [34.062, -118.2566], // Near Little Tokyo
   },
 ];
+
 
 export { markers };

@@ -15,7 +15,7 @@ const customIcon = new L.Icon({
 const SaghfinooMap: React.FC = () => {
   return (
     <div className="w-1/2 hidden md:block z-0">
-      <MapContainer center={[35.6892, 51.389]} zoom={11}>
+      <MapContainer center={[34.0522, -118.2437]} zoom={11}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
