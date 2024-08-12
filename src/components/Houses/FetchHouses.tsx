@@ -32,6 +32,8 @@ const FetchHouses: React.FC<FetchHousesType> = ({ city }) => {
   useEffect(() => {
     dispatch(resetHouseState()); // Reset state to clear previous data
     dispatch(fetchHouses(params));
+    console.log(document.documentElement.scrollTop);
+    
   }, [dispatch, city, sort, queryString]);
 
   const handleScroll = () => {

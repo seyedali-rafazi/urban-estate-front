@@ -50,7 +50,7 @@ const HouseCard: React.FC<HouseCard> = ({ house }) => {
             />
           )}
         </div>
-        <p className="font-medium text-gray-500">شهر&nbsp;{house.city}</p>
+        <p className="font-medium text-gray-500">‌City:&nbsp;{house.city}</p>
         <p className="font-medium text-sm">
           Price&nbsp;{house.price}&nbsp;$
         </p>

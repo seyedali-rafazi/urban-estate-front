@@ -3,6 +3,7 @@ import userReducer from "../feachers/user/userSlice";
 import houseReducer from "../feachers/products/houseSlice";
 import houseByIdReducer from "../feachers/productById/productByIdSlice";
 import favouriteHouse from "../feachers/favourtieProduct/favourtieProductSlice";
+import addProduct from "../feachers/addProduct/addProductSlice";
 
 const store = configureStore({
   reducer: {
@@ -10,6 +11,7 @@ const store = configureStore({
     house: houseReducer,
     houseById: houseByIdReducer,
     favouriteHouse: favouriteHouse,
+    add: addProduct,
   },
 });
 

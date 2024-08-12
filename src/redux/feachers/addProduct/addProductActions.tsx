@@ -15,7 +15,6 @@ export const addProduct = createAsyncThunk(
     dispatch(addPriductRequest());
     try {
       console.log(userData);
-
       const response = await http.post(`/admin/product/add`, userData);
       dispatch(addPriductSuccess(response.data));
       toast.success(response.data.data.message);

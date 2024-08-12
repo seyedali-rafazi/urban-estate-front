@@ -17,7 +17,7 @@ const FetchHousrHeader: React.FC<FetchHousrHeaderType> = ({
         <div className="flex justify-between items-center">
           <div>
             <p className="font-medium text-sm md:text-base text-gray-400">
-              {titleGroup} خانه در {city}
+              {titleGroup}  House in {city}
             </p>
           </div>
           <div className="flex items-center justify-center gap-2">

@@ -47,7 +47,7 @@ const FetchHouseSwiper: React.FC = () => {
             <div className="space-y-2">
               <div className="flex justify-between items-center">
                 <p className="font-medium text-gray-350">
-                  {item.houseGroup.title}&nbsp;خانه
+                  {item.houseGroup.title}&nbsp;House
                 </p>
                 <div className="sm:hidden">
                   <SaveFavouriteMini />

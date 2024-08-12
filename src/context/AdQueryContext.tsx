@@ -20,7 +20,6 @@ export interface AdQueryStringType {
   collingSystem: string;
   floorMaterial: string;
   imageLink: string;
-  slug: string;
   discount: number;
   heatingSystem: string;
   city: string;
@@ -48,7 +47,6 @@ const defaultValue: AdQueryContextType = {
     collingSystem: "",
     floorMaterial: "",
     imageLink: "https://s30.picofile.com/file/8476525826/8_min.jpg",
-    slug: "villa-b44c81e5-3d02-4e35-857f-982a3de625sfdfsdj",
     discount: 0,
     heatingSystem: "",
     city: "",
@@ -76,8 +74,7 @@ export const AdQueryStringContext: React.FC<
     elevator: 0,
     collingSystem: "",
     floorMaterial: "",
-    imageLink: "https://s30.picofile.com/file/8476525826/8_min.jpg",
-    slug: "villa-b44c81e5-3d02-4e35-857f-982a3de625sfdfsdj",
+    imageLink: "https://s32.picofile.com/file/8478282876/41446_b580.jpg",
     discount: 0,
     heatingSystem: "",
     city: "",

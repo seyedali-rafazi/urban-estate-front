@@ -11,7 +11,7 @@ const RentHouse: React.FC = () => {
       <div className="w-full min-h-screen mt-12 md:mt-[170px] px-6 md:px-14 py-10 space-y-5">
         <HousesHeader headerText="Rent a house" />
         <div className="flex gap-12">
-          <FetchHouses city="اجاره" />
+          <FetchHouses city="rent" />
           <SaghfinooMap />
         </div>
       </div>

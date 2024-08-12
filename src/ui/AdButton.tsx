@@ -26,6 +26,17 @@ export const AdButtonSubmit: React.FC = () => {
   );
 };
 
+export const ButtonLoading: React.FC = () => {
+  return (
+    <button
+      type="submit"
+      className="col-start-1 mx-auto  font-bold text-secondery-50 bg-primary text-white py-2 rounded-md  px-5 w-1/2"
+    >
+      ...
+    </button>
+  );
+};
+
 export const AdButtonBack: React.FC<AdButtonBackType> = ({ path }) => {
   const navigate = useNavigate();
   return (

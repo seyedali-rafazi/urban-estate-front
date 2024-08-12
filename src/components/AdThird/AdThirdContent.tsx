@@ -1,10 +1,7 @@
 import { useForm } from "react-hook-form";
 import { useAdQueryContext } from "../../context/AdQueryContext";
 import TextField from "../../ui/TextField";
-import {
-  AdButtonBack,
-  AdButtonSubmit,
-} from "../../ui/AdButton";
+import { AdButtonBack, AdButtonSubmit, ButtonLoading } from "../../ui/AdButton";
 import SelectField from "../../ui/SelectField";
 import {
   collingSystem,
@@ -12,8 +9,8 @@ import {
   heatingSystem,
   wcType,
 } from "../../data/AdData";
-import { useDispatch } from "react-redux";
-import { AppDispatch } from "../../redux/store/store";
+import { useDispatch, useSelector } from "react-redux";
+import { AppDispatch, RootState } from "../../redux/store/store";
 import { addProduct } from "../../redux/feachers/addProduct/addProductActions";
 import { useEffect, useState } from "react";
 
@@ -27,6 +24,8 @@ const AdThirdContent: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();
   const [formSubmitted, setFormSubmitted] = useState(false);
 
+  const { loading } = useSelector((state: RootState) => state.add);
+
   const onCkickSubmit = (data: any) => {
     setAdQueryString((prevUser) => ({
       ...prevUser,
@@ -39,7 +38,6 @@ const AdThirdContent: React.FC = () => {
       floorMaterial: data.floorMaterial,
       heatingSystem: data.heatingSystem,
       imageLink: "https://s30.picofile.com/file/8476525826/8_min.jpg",
-      slug: "villa-b44c81e5-3d02-4e35-857f-982a3de625sfdfsdj",
       city: "Milan",
     }));
     setFormSubmitted(true);
@@ -131,7 +129,7 @@ const AdThirdContent: React.FC = () => {
       </div>
       <div className="flex gap-3 w-full max-w-md">
         <AdButtonBack path="/ad-price" />
-        <AdButtonSubmit />
+        {loading ? <ButtonLoading /> : <AdButtonSubmit />}
       </div>
     </form>
   );
