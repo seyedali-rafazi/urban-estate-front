@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { toPersianNumbersWithComma } from "../utils/FrormatNumber";
 import FavourtieButton from "./FavourtieButton";
 import { useUserContext } from "../context/UserContext";
 import { PiBookmarkSimpleFill, PiBookmarkSimpleLight } from "react-icons/pi";
@@ -53,13 +52,13 @@ const HouseCard: React.FC<HouseCard> = ({ house }) => {
         </div>
         <p className="font-medium text-gray-500">شهر&nbsp;{house.city}</p>
         <p className="font-medium text-sm">
-          قیمت&nbsp;{toPersianNumbersWithComma(house.price)}&nbsp;تومان
+          Price&nbsp;{house.price}&nbsp;$
         </p>
         <Link
           to={`/house-details/${house._id}`}
           className="text-white bg-primary w-full p-2 rounded-md flex justify-center font-medium"
         >
-          مشخصات کامل
+          Full specifications
         </Link>
       </div>
     </div>

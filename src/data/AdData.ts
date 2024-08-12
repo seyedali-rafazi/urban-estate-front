@@ -7,12 +7,12 @@ const options = [
   {
     id: 2,
     value: "665a390ebcd7885317cd4b1e",
-    text: "خرید",
+    text: "Buy",
   },
   {
     id: 3,
     value: "665a3964bcd7885317cd4b23",
-    text: "اجاره",
+    text: "Rent",
   },
 ];
 
@@ -24,13 +24,13 @@ const wcType = [
   },
   {
     id: 2,
-    value: "فرنگی",
-    text: "فرنگی",
+    value: "Western",
+    text: "Western",
   },
   {
     id: 3,
-    value: "ایرانی",
-    text: "ایرانی",
+    value: "Iranian",
+    text: "Iranian",
   },
 ];
 
@@ -42,18 +42,18 @@ const collingSystem = [
   },
   {
     id: 2,
-    value: "اسپلیت",
-    text: "اسپلیت",
+    value: "Split",
+    text: "Split",
   },
   {
     id: 3,
-    value: "چیلر",
-    text: "چیلر",
+    value: "Chiller",
+    text: "Chiller",
   },
   {
     id: 4,
-    value: "کولر آبی",
-    text: "کولر آبی",
+    value: "Evaporative Cooler",
+    text: "Evaporative Cooler",
   },
 ];
 
@@ -65,23 +65,23 @@ const floorMaterial = [
   },
   {
     id: 2,
-    value: "سرامیک",
-    text: "سرامیک",
+    value: "Ceramic",
+    text: "Ceramic",
   },
   {
     id: 3,
-    value: "لمینت",
-    text: "لمینت",
+    value: "Laminate",
+    text: "Laminate",
   },
   {
     id: 4,
-    value: "سنگ",
-    text: "سنگ",
+    value: "Stone",
+    text: "Stone",
   },
   {
     id: 5,
-    value: "چوب",
-    text: "چوب",
+    value: "Wood",
+    text: "Wood",
   },
 ];
 
@@ -93,23 +93,23 @@ const heatingSystem = [
   },
   {
     id: 2,
-    value: "اسپلیت",
-    text: "اسپلیت",
+    value: "Split",
+    text: "Split",
   },
   {
     id: 3,
-    value: "رادیاتور",
-    text: "رادیاتور",
+    value: "Radiator",
+    text: "Radiator",
   },
   {
     id: 4,
-    value: "مرکزی",
-    text: "مرکزی",
+    value: "Central",
+    text: "Central",
   },
   {
     id: 5,
-    value: "شومینه",
-    text: "شومینه",
+    value: "Fireplace",
+    text: "Fireplace",
   },
 ];
 

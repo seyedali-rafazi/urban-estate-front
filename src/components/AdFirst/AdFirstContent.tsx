@@ -44,24 +44,24 @@ const AdFirstContent: React.FC = () => {
       <div className="flex flex-col justify-center items-center lg:grid lg:grid-cols-2 gap-8 p-3 w-full ">
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="موضوع اگهی"
+          placeholder="Advertisement subject"
           errors={errors}
           name="title"
           type="text"
           register={register}
           validationSchema={{
-            required: "موضوع الزامی است",
+            required: "Subject is required",
           }}
         />
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="توضیحات اگهی "
+          placeholder="Ad Description"
           errors={errors}
           name="description"
           type="text"
           register={register}
           validationSchema={{
-            required: "توضیحات ضروری است",
+            required: "Explanation is essential",
           }}
         />
         <SelectField
@@ -69,17 +69,17 @@ const AdFirstContent: React.FC = () => {
           errors={errors}
           register={register}
           options={options}
-          required="نوع معامله را انتخاب کنید"
+          required="Select the type of transaction"
         />
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="مبلغ مورد نظر"
+          placeholder="Desired amount"
           errors={errors}
           name="offPrice"
           type="number"
           register={register}
           validationSchema={{
-            required: "مبلغ ضروری است",
+            required: "Amount is necessary",
           }}
         />
       </div>

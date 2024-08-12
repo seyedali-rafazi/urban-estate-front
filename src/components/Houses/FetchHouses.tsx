@@ -47,7 +47,7 @@ const FetchHouses: React.FC<FetchHousesType> = ({ city }) => {
     }
   };
 
-  useEffect(() => {
+  useEffect(() => {    
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [loading, items.length, limit]);

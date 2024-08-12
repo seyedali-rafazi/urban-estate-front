@@ -42,7 +42,7 @@ const defaultValue: AdQueryContextType = {
     floor: 0,
     parking: 0,
     WC: 0,
-    WCType: "",
+    WCType: "Western",
     warHouse: 0,
     elevator: 0,
     collingSystem: "",

@@ -73,17 +73,17 @@ const SaghfinooDetails = [
   {
     id: 1,
     image: "/photos/rent-home.webp",
-    header: "Easily Rent a Home",
+    header: "Easily Rent a House",
     text: "Among hundreds of listings added daily to the Saghfinoo website, we've implemented over 28 practical filters to help you quickly find and rent the home you are searching for.",
-    buttonText: "Rent a Home",
+    buttonText: "Rent a House",
     path: "/rent-house",
   },
   {
     id: 2,
     image: "/photos/buy-home.webp",
-    header: "Buy Your Dream Home",
+    header: "Buy Your Dream House",
     text: "With over 1 million listings on the Saghfinoo website, we strive to share the joy of an easy purchase experience by collaborating with specialist agents in every city.",
-    buttonText: "Buy a Home",
+    buttonText: "Buy a House",
     path: "/buy-house",
   },
   {

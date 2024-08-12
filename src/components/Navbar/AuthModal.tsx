@@ -41,11 +41,11 @@ const AuthModal: React.FC<AutoModalType> = ({
 
   return (
     <div>
-      <Modal logo="ورود" onClose={() => setOpenAuth(false)} open={openAuth}>
+      <Modal logo="Login" onClose={() => setOpenAuth(false)} open={openAuth}>
         <div className="space-y-7">
           <div className="flex flex-col justify-center items-center font-normal text-sm">
-            <p>به سقفینو خوش آمدید</p>
-            <p>لطفا برای ورود شماره موبایل خود را وارد کنید</p>
+            <p className="font-semibold">Welcome to UrbanState</p>
+            <p>Please enter your mobile number to login</p>
           </div>
           <form
             className="w-full space-y-4"
@@ -53,31 +53,31 @@ const AuthModal: React.FC<AutoModalType> = ({
           >
             <TextField
               className="textField"
-              placeholder="شماره تلفن:"
+              placeholder="Phone number:"
               errors={errors}
               name="phoneNumber"
               type="number"
               register={register}
               validationSchema={{
-                required: "تلفن همراه ضروری است",
+                required: "Mobile phone is essential",
               }}
             />
             <TextField
               className="textField"
-              placeholder=" رمز عبور:"
+              placeholder="Password:"
               errors={errors}
               name="password"
               type="text"
               register={register}
               validationSchema={{
-                required: "رمز عبور همراه ضروری است",
+                required: "Password is required",
               }}
             />
             <button
               type="submit"
               className="w-full font-bold text-slate-50 bg-primary py-2 rounded-md"
             >
-              ثبت نام / ورود
+              Sign up / Login
             </button>
           </form>
         </div>

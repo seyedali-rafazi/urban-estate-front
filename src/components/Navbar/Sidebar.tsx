@@ -13,19 +13,19 @@ import EnterUser from "./EnterUser";
 const SidebarOptions = [
   {
     id: 1,
-    text: "ثبت آگهی",
+    text: "Ad registration",
     icon: <Key />,
     path: "/ad-region",
   },
   {
     id: 2,
-    text: "اجاره خانه",
+    text: "House for rent",
     icon: <Plus />,
     path: "/rent-house",
   },
   {
     id: 3,
-    text: "خرید خانه",
+    text: "Buying a house",
     icon: <Home />,
     path: "/buy-house",
   },
@@ -72,7 +72,7 @@ const Sidebar: React.FC<SidebarType> = ({ open, onClose }) => {
               <EnterUser>
                 <div className="flex gap-2 items-center justify-center text-sm font-medium">
                   <UserAuth />
-                  <p>ورود / ثبت نام</p>
+                  <p>Login / Sign up</p>
                 </div>
               </EnterUser>
             </div>

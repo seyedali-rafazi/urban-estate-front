@@ -31,7 +31,7 @@ const EnterUser: React.FC<EnterUserType> = ({ classHid, children }) => {
           {user.name ? (
             <p className="font-medium">{user.name}</p>
           ) : (
-            "کاربر سقفینو"
+            "UrbanState user"
           )}
         </button>
       )}

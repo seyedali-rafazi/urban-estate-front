@@ -1,5 +1,9 @@
 const AdHeader: React.FC = () => {
-  return <h2 className="text-right w-full font-medium text-xl">لطفا موارد زیر را تکمیل کنید</h2>;
+  return (
+    <h2 className="text-left w-full font-medium text-xl">
+      Please complete the following
+    </h2>
+  );
 };
 
 export default AdHeader;

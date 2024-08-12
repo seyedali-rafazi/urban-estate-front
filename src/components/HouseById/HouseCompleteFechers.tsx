@@ -8,7 +8,6 @@ import {
   Wc,
   WCType,
 } from "../../icons/FetchHouseIcon";
-import { toPersianNumbers } from "../../utils/FrormatNumber";
 
 interface HouseCompleteFechersType {
   parking?: number;
@@ -36,19 +35,19 @@ const HouseCompleteFechers: React.FC<HouseCompleteFechersType> = ({
       id: 1,
       text: "Parking:",
       icon: <Parking />,
-      body: `${parking ? toPersianNumbers(parking) : "۰"}`,
+      body: `${parking ?? "0"}`,
     },
     {
       id: 2,
       text: "W.C:",
       icon: <Wc />,
-      body: `${wc ? toPersianNumbers(wc) : "۰"}`,
+      body: `${wc ?? "0"}`,
     },
     {
       id: 3,
       text: "Warehouse:",
       icon: <WarHouse />,
-      body: `${warhouse ? toPersianNumbers(warhouse) : "۰"}`,
+      body: `${warhouse ?? "0"}`,
     },
     {
       id: 4,
@@ -60,7 +59,7 @@ const HouseCompleteFechers: React.FC<HouseCompleteFechersType> = ({
       id: 5,
       text: "Elevator:",
       icon: <Elavator />,
-      body: `${elavator ? toPersianNumbers(elavator) : "۰"}`,
+      body: `${elavator ?? "0"}`,
     },
     {
       id: 6,

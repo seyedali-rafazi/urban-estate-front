@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { fetchHouses } from "../../redux/feachers/products/houseActions";
 import { SaveFavourite, SaveFavouriteMini } from "../../icons/FetchHouseIcon";
-import { toPersianNumbersWithComma } from "../../utils/FrormatNumber";
 import { Link } from "react-router-dom";
 import Skeleton from "../../ui/Skeleton";
 
@@ -62,7 +61,7 @@ const FetchHouseSwiper: React.FC = () => {
                 {item.description}
               </p>
               <p className="font-medium text-sm">
-                {toPersianNumbersWithComma(item.price)}&nbsp;تومان
+                {item.price}&nbsp;$
               </p>
             </div>
           </Link>

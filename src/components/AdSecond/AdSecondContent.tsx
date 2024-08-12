@@ -38,46 +38,46 @@ const AdSecondContent: React.FC = () => {
       <div className="flex flex-col justify-center items-center lg:grid lg:grid-cols-2 gap-8 p-3 w-full ">
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="متراژ (متر مربع)"
+          placeholder="Measurement (square meter)"
           errors={errors}
           name="title"
           type="number"
           register={register}
           validationSchema={{
-            required: "متراژ الزامی است",
+            required: "Measurement is required",
           }}
         />
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="اتاق"
+          placeholder="Room"
           errors={errors}
           name="rooms"
           type="number"
           register={register}
           validationSchema={{
-            required: "اتاق الزامی است",
+            required: "Room is required",
           }}
         />
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="طبقه"
+          placeholder="Floor"
           errors={errors}
           name="floor"
           type="number"
           register={register}
           validationSchema={{
-            required: "طبقه الزامی است",
+            required: "Floor is required",
           }}
         />
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="تعداد طبقات"
+          placeholder="Number of floors"
           errors={errors}
           name="floor"
           type="number"
           register={register}
           validationSchema={{
-            required: "تعداد طبقه الزامی است",
+            required: "The number of floors is required",
           }}
         />
       </div>

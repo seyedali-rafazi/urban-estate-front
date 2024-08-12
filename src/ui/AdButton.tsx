@@ -10,7 +10,7 @@ export const AdButtonContinue: React.FC = () => {
       type="submit"
       className="col-start-1 mx-auto  font-bold text-secondery-50 bg-primary text-white py-2 rounded-md  px-5 w-1/2"
     >
-      ادامه
+      Continue
     </button>
   );
 };
@@ -21,7 +21,7 @@ export const AdButtonSubmit: React.FC = () => {
       type="submit"
       className="col-start-1 mx-auto  font-bold text-secondery-50 bg-primary text-white py-2 rounded-md  px-5 w-1/2"
     >
-      ثبت نهایی
+      Final registration
     </button>
   );
 };
@@ -33,7 +33,7 @@ export const AdButtonBack: React.FC<AdButtonBackType> = ({ path }) => {
       onClick={() => navigate(path)}
       className="col-start-1 mx-auto  font-bold text-secondery-50 bg-white text-primary border border-primary  py-2 rounded-md  px-5 w-1/2"
     >
-      قبلی
+      Previous
     </button>
   );
 };

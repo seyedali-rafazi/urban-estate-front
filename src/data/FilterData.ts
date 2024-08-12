@@ -105,12 +105,12 @@ const BathroomTypeDetails: FilterTypea[] = [
   {
     id: 2,
     text: "Iranian",
-    value: "ایرانی",
+    value: "Iranian",
   },
   {
     id: 3,
     text: "Western",
-    value: "فرنگی",
+    value: "Western",
   },
 ];
 
@@ -169,17 +169,17 @@ const CollingSystemDetails: FilterTypea[] = [
   {
     id: 2,
     text: "Evaporative Cooler",
-    value: "کولر آبی",
+    value: "Evaporative Cooler",
   },
   {
     id: 3,
     text: "Split AC",
-    value: "اسپلیت",
+    value: "Split AC",
   },
   {
     id: 4,
     text: "Chiller",
-    value: "چیلر",
+    value: "Chiller",
   },
 ];
 
@@ -192,22 +192,22 @@ const HeatingSystemDetails: FilterTypea[] = [
   {
     id: 2,
     text: "Central",
-    value: "مرکزی",
+    value: "Central",
   },
   {
     id: 3,
     text: "Split AC",
-    value: "اسپلیت",
+    value: "Split AC",
   },
   {
     id: 4,
     text: "Fireplace",
-    value: "شومینه",
+    value: "Fireplace",
   },
   {
     id: 5,
     text: "Radiator",
-    value: "رادیاتور",
+    value: "Radiator",
   },
 ];
 
@@ -220,22 +220,22 @@ const FloorMaterialDetails: FilterTypea[] = [
   {
     id: 2,
     text: "Stone",
-    value: "سنگ",
+    value: "Stone",
   },
   {
     id: 3,
     text: "Ceramic",
-    value: "سرامیک",
+    value: "Ceramic",
   },
   {
     id: 4,
     text: "Laminate",
-    value: "لمینت",
+    value: "Laminate",
   },
   {
     id: 5,
     text: "Wood",
-    value: "چوب",
+    value: "Wood",
   },
 ];
 

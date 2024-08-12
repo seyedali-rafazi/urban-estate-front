@@ -40,7 +40,7 @@ const AdThirdContent: React.FC = () => {
       heatingSystem: data.heatingSystem,
       imageLink: "https://s30.picofile.com/file/8476525826/8_min.jpg",
       slug: "villa-b44c81e5-3d02-4e35-857f-982a3de625sfdfsdj",
-      city: "تهران",
+      city: "Milan",
     }));
     setFormSubmitted(true);
   };
@@ -69,13 +69,13 @@ const AdThirdContent: React.FC = () => {
         />
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="سرویس بهداشتی"
+          placeholder="WC"
           errors={errors}
           name="WC"
           type="number"
           register={register}
           validationSchema={{
-            required: "سرویس بهداشتی الزامی است",
+            required: "WC is required",
           }}
         />
         <SelectField
@@ -83,28 +83,28 @@ const AdThirdContent: React.FC = () => {
           errors={errors}
           register={register}
           options={wcType}
-          required="نوع سرویس بهداشتی"
+          required="WCType is required"
         />
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="انباری"
+          placeholder="Warehouse"
           errors={errors}
           name="warHouse"
           type="number"
           register={register}
           validationSchema={{
-            required: " انباری الزامی است",
+            required: "Warehouse is required",
           }}
         />
         <TextField
           className="border border-secondery-400 p-2 rounded-sm w-full h-[44px]"
-          placeholder="آسانسور"
+          placeholder="Elevator"
           errors={errors}
           name="elevator"
           type="number"
           register={register}
           validationSchema={{
-            required: " آسانسور الزامی است",
+            required: "Elevator is required",
           }}
         />
         <SelectField
@@ -112,21 +112,21 @@ const AdThirdContent: React.FC = () => {
           errors={errors}
           register={register}
           options={collingSystem}
-          required="نوع  سیستم سرمایش الزامی است"
+          required="Type of cooling system is required"
         />
         <SelectField
           name="floorMaterial"
           errors={errors}
           register={register}
           options={floorMaterial}
-          required="جنس کف الزلمی است "
+          required="The type of floor is required"
         />
         <SelectField
           name="heatingSystem"
           errors={errors}
           register={register}
           options={heatingSystem}
-          required="نوع  سیستم گرمایش الزامی است"
+          required="The type of heating system is required"
         />
       </div>
       <div className="flex gap-3 w-full max-w-md">

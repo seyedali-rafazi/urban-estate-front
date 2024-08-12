@@ -34,13 +34,13 @@ const CompleteProfile: React.FC<AutoModalType> = ({
 
   return (
     <Modal
-      logo="تکمیل اطلاعات"
+      logo="Completing information"
       onClose={() => setOpenCompleteProfile(false)}
       open={openCompleteProfile}
     >
       <div className="space-y-7">
         <div className="flex flex-col justify-center items-center font-normal text-sm">
-          <p>برای ثبت نام اطلاعات زیر را تکمیل بفرمایید</p>
+          <p>To register, please complete the following information</p>
         </div>
         <form
           className="w-full space-y-4"
@@ -48,24 +48,24 @@ const CompleteProfile: React.FC<AutoModalType> = ({
         >
           <TextField
             className="textField"
-            placeholder="نام و نام خانوادگی:"
+            placeholder="First and last name:"
             errors={errors}
             name="name"
             type="text"
             register={register}
             validationSchema={{
-              required: "نام و نام خانوادگی ضروری است",
+              required: "Name and surname are necessary",
             }}
           />
           <TextField
             className="textField"
-            placeholder="ایمیل:"
+            placeholder="Email:"
             name="email"
             register={register}
             validationSchema={{
               pattern: {
                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                message: "ایمیل نامعتبر است",
+                message: "Email is invalid",
               },
             }}
             errors={errors}
@@ -74,7 +74,7 @@ const CompleteProfile: React.FC<AutoModalType> = ({
             type="submit"
             className="w-full font-bold text-slate-50 bg-primary py-2 rounded-md"
           >
-            ثبت اطلاعات
+            Record information
           </button>
         </form>
       </div>
